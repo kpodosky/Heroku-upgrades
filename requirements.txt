@@ -44,6 +44,7 @@ entrypoints==0.3
 enum34==1.1.6
 Flag==0.1.1
 funcsigs==1.0.2
+python==2.7
 functools32==3.2.3.post2
 furl==2.1.0
 futures==3.3.0
