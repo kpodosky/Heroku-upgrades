@@ -1,0 +1,6 @@
+Python 3.8.6
+tweepy
+Heroku-python
+Github
+Twitter developer account
+APScheduler === 3.6.3
