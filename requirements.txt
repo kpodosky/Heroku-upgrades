@@ -1,4 +1,5 @@
-Python 3.8.6
+python === 2.7.15+
+Python3 === 3.8.6
 tweepy
 Heroku-python
 Github
