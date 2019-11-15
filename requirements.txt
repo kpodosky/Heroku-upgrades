@@ -111,7 +111,7 @@ pygobject==3.34.0
 PyHamcrest==1.9.0
 pylint==1.9.5
 pyOpenSSL==19.0.0
-pyparted==3.11.1
+pyparted==3.11.3
 pyrsistent==0.15.4
 PySocks==1.7.1
 python-apt==1.6.4
