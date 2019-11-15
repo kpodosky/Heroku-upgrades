@@ -22,7 +22,7 @@ chardet==3.0.4
 CherryTree==0.1.1
 cliapp==1.0.9
 cloudpickle==0.5.2
-cmdtest==0.32
+cmdtest==0.1.1
 coinbase==2.1.0
 configobj==5.0.6
 configparser==4.0.2
