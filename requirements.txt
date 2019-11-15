@@ -113,7 +113,7 @@ pylint==1.9.5
 pyOpenSSL==19.0.0
 pyrsistent==0.15.4
 PySocks==1.7.1
-python-apt==1.6.4
+python-apt==0.7.8
 python-dateutil==2.8.0
 python-xlib==0.20
 pytz==2019.2
