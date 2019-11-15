@@ -40,7 +40,7 @@ docopt==0.6.2
 docutils==0.14
 emoji==0.5.4
 emoji-country-flag==1.1.0
-entrypoints==0.2.3.post1
+entrypoints==0.3
 enum34==1.1.6
 Flag==0.1.1
 funcsigs==1.0.2
