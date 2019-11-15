@@ -107,7 +107,7 @@ PyDispatcher==2.0.5
 pyfiglet==0.8.post1
 pyflakes==1.6.0
 Pygments==2.2.0
-pygobject==3.26.1
+pygobject==3.34.0
 PyHamcrest==1.9.0
 pylint==1.9.5
 pyOpenSSL==19.0.0
