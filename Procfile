@@ -1,1 +1,1 @@
-web: gunicorn shark_bot:app
+web: gunicorn shark_bot.wsgi:app
