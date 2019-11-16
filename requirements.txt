@@ -1,3 +1,4 @@
 gunicorn==19.7.1
 chardet==3.0.4
 Certifi==2019.9.11
+inda==2.8
