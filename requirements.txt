@@ -19,7 +19,7 @@ cached-property==1.3.1
 certifi==2019.9.11
 cffi==1.12.3
 chardet==3.0.4
-CherryTree==0.37.6
+CherryTree==0.1.1
 cliapp==1.20170827
 cloudpickle==0.5.2
 cmdtest==0.32
