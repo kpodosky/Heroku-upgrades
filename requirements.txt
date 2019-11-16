@@ -1,2 +1,4 @@
 APScheduler==3.6.3
-gunicorn==19.7.1
+Gunicorn==19.7.1
+chardet==3.0.4
+Idna== 2.7
