@@ -238,4 +238,4 @@ print (bot_status())
 
 ##sleep and repeat output after 30 mintues
 from time import sleep
-sleep (1740)
+sleep (1770)
