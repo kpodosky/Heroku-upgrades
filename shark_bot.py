@@ -234,8 +234,6 @@ auth.set_access_token("1126776989266792448-zcHyNmqUzHDt4VhAbpd87ZlnTd35qN", "7nd
 api = tweepy.API(auth)
 api.update_status (bot_status())
 
-print (bot_status())
-
 ##sleep and repeat output after 30 mintues
 import time
-time.sleep(1800)
+time.sleep(1750)
