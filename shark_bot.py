@@ -2,7 +2,6 @@
 import requests
 import json
 import tweepy
-import time
 
 url = "https://api.coinbase.com/v2/prices/spot?currency=USD"
 response = requests.get(url)
@@ -238,4 +237,5 @@ api.update_status (bot_status())
 print (bot_status())
 
 ##sleep and repeat output after 30 mintues
+import time
 time.sleep(1800)
