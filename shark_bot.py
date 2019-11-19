@@ -1,7 +1,7 @@
 import requests
 import json
 import tweepy
-from time import sleep
+import time
 
 url = "https://api.coinbase.com/v2/prices/spot?currency=USD"
 response = requests.get(url)
