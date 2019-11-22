@@ -239,4 +239,3 @@ api.update_status (bot_status())
 #sleep and repeat output after 30 mintues
 from time import sleep
 sleep(1800)
-sleep(60*30)
