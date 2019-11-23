@@ -235,7 +235,3 @@ auth.set_access_token("1126776989266792448-zcHyNmqUzHDt4VhAbpd87ZlnTd35qN", "7nd
 #post status on Twitter 
 api = tweepy.API(auth)
 api.update_status (bot_status())
-
-#sleep and repeat output after 30 mintues
-from time import sleep
-sleep(1800)
