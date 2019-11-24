@@ -2,8 +2,9 @@
 import requests
 import json
 import tweepy
-import time
 
+#call the curl url and extract data
+ 
 url = "https://api.coinbase.com/v2/prices/spot?currency=USD"
 response = requests.get(url)
 data = response.text
