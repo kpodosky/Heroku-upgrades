@@ -5,3 +5,4 @@ Idna== 2.7
 certifi==2019.9.11
 tweepy==3.5.0
 flask==1.1.1
+apscheduler==3.0.1
