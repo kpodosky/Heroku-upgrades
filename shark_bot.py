@@ -13,7 +13,8 @@ data = response.text
 parsed = json.loads(data)
 amount_data = parsed["data"]["amount"]
 bitcoin_price = float(amount_data)
-bit_2017 = 50000.00 
+bit_2017 = 100000.00 
+#$63,729.5
 #19783.21
 crease = 100
 num = bitcoin_price/bit_2017*crease
