@@ -10,6 +10,7 @@ from time import sleep
 from tweepy import auth
 
 
+<<<<<<< HEAD
 def btc():
     url = "https://api.coinbase.com/v2/prices/spot?currency=USD"
     response = requests.get(url)
@@ -18,6 +19,21 @@ def btc():
     amount_data = parsed["data"]["amount"]
     bitcoin = float(amount_data)
     return bitcoin
+=======
+#call the curl url and extract data
+ 
+url = "https://api.coinbase.com/v2/prices/spot?currency=USD"
+response = requests.get(url)
+data = response.text
+parsed = json.loads(data)
+amount_data = parsed["data"]["amount"]
+bitcoin_price = float(amount_data)
+bit_2017 = 100000.00 
+#$63,729.5
+#19783.21
+crease = 100
+num = bitcoin_price/bit_2017*crease
+>>>>>>> fb544bc77030e01de77510a8786991b58a29a92b
 
 def eth():
     url = "https://api.coinbase.com/v2/prices/ETH-USD/spot"
