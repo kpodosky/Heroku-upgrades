@@ -512,7 +512,7 @@ def bitcoinData ():
     return ("xxx broke my counter") 
 
 def bottom():
-   return '\n\nprice:$'+ str(bit_current)+'    '+ 'Eth/BTC:'+ str(price_data())
+   return '\n\nprice:$'+ str(bit_current)+'      '+ 'eth/btc: '+ str(price_data())
                                                                      
     
 def stat ():
