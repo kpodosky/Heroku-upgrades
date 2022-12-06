@@ -40,14 +40,14 @@ def price_data():
 
 """this would print out the value of the current bitcion price"""
 def checkpercent():
- if num <= 50 :
-  return '₿itcoin  📈 \n\n'
- elif num >= 50 : 
-  return  '₿itcoin 📉 \n\n' 
- elif num >= 60 : 
-  return '₿itcoin  🔵 \n\n'
- elif num >=65 :
-  return  '₿itcoin 📉 \n\n'
+ if num <= 25 :
+  return '₿itcoin   ▼ \n\n'
+ elif num >= 25 : 
+  return  '₿itcoin  ▲\n\n' 
+ elif num == 50 : 
+  return '₿itcoin  ∞ \n\n'
+ elif num >=50 :
+  return  '₿itcoin ▲ \n\n'
 
 """this is to printout the first part of the tweet, the top half""" 
     
