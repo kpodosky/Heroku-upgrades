@@ -6,7 +6,6 @@ import time
 import datetime
 from time import sleep
 
-
 from tweepy import auth
 
 
@@ -40,13 +39,13 @@ def price_data():
 """this would print out the value of the current bitcion price"""
 def checkpercent():
  if num <= 25 :
-  return '₿itcoin   ▼ \n\n'
+  return '#bitcoin ↓\n\n'
  elif num >= 25 : 
-  return  '₿itcoin  ▲\n\n' 
+  return  '#bitcoin ↑\n\n' 
  elif num == 50 : 
-  return '₿itcoin  ∞ \n\n'
+  return '₿itcoin ∞ \n\n'
  elif num >=50 :
-  return  '₿itcoin ▲ \n\n'
+  return  '#bitcoin ↑ \n\n'
 
 """this is to printout the first part of the tweet, the top half""" 
     
@@ -275,8 +274,8 @@ while True:
     if current_time.minute in tweet_times:
         # your function that tweets
         api = tweepy.API(auth)
+
         api.update_status (stat())
         # sleep to avoid running the function again in the next loop
         time.sleep(120)
-        
-stat()
+print(stat())
