@@ -38,7 +38,7 @@ def format_tweet(btc_price, eth_price, previous_btc_price):
     direction = get_price_direction(btc_price, previous_btc_price)
     progress_bar = get_progress_bar(percentage)
     
-    header = f"₿itcoin {direction}\n\n"
+    header = f"bitcoin {direction}\n\n"
     body = f"{progress_bar} {percentage:.1f}%\n\n"
     footer = f"${btc_price:.2f}        ETH/BTC: {eth_price/btc_price:.5f}"
     
