@@ -8,7 +8,7 @@ from datetime import datetime
 from keys import bearer_token, consumer_key, consumer_secret, access_token, access_token_secret
 
 # Constants
-BTC_ATH = 69000  # Bitcoin's all-time high
+BTC_ATH = 73737.940  # Bitcoin's all-time high
 UPDATE_INTERVAL = 300  # 5 minutes
 
 def get_crypto_prices():
@@ -38,7 +38,7 @@ def format_tweet(btc_price, eth_price, previous_btc_price):
     direction = get_price_direction(btc_price, previous_btc_price)
     progress_bar = get_progress_bar(percentage)
     
-    header = f"bitcoin {direction}\n\n"
+    header = f"Bitcoin {direction}\n\n"
     body = f"{progress_bar} {percentage:.1f}%\n\n"
     footer = f"${btc_price:.2f}        ETH/BTC: {eth_price/btc_price:.5f}"
     
